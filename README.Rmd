@@ -33,7 +33,8 @@ Sotto è riportato uno screenshoot dell'applicazione raggiungibile al seguente l
 
 [https://sunrelax.shinyapps.io/Jona_Gubbiotti/](https://sunrelax.shinyapps.io/Jona_Gubbiotti/)
 
+i cui sorgenti sono presenti al seguente link:
+
+[https://github.com/sunrelax/bigdata-shinyapp](https://github.com/sunrelax/bigdata-shinyapp)
+
 ![](shinyapp.png)
-
-### Riferimenti e sorgenti
-
