@@ -9,20 +9,20 @@ my_autocomplete_list <- c("Benevento","Salerno","Bari","Taranto","Lecce","Potenz
 ,"Enna","Catania","Ragusa","Siracusa","Sassari","Nuoro","Cagliari","Oristano","Monza e della Brianza"
 ,"Fermo","Barletta-Andria-Trani","Imperia","La Spezia","Como","Milano","Reggio nell'Emilia","Verbano-Cusio-Ossola","Asti"
 ,"Lecco","Bergamo","Lodi","Aosta","Savona","Vicenza","Gorizia","Vercelli","Sondrio"
-,"Brescia","Cremona","Torino","Novara","Bolzano","Belluno","Pavia","Mantova","Provincia Autonoma Bolzano"
+,"Brescia","Cremona","Torino","Novara","Bolzano","Belluno","Pavia","Mantova"
 ,"Trento","Biella","Cuneo","Alessandria","Genova","Varese","Padova","Pordenone","Trieste"
-,"Parma","Provincia Autonoma Trento","Verona","Treviso","Rovigo","Venezia","Udine"
+,"Parma","Verona","Treviso","Rovigo","Venezia","Udine"
 ,"Piacenza","Modena","Bologna","Ferrara","Ravenna","Forli'-Cesena","Rimini","Massa Carrara"
 ,"Lucca","Pistoia","Firenze","Prato","Livorno","Pisa","Arezzo","Siena","Grosseto"
 ,"Perugia","Terni","Pesaro e Urbino","Ancona","Macerata","Ascoli Piceno","Viterbo"
 ,"Rieti","Roma","Latina","Frosinone","Pescara","Chieti","Campobasso","L'Aquila","Teramo"
-,"Isernia","Sud Sardegna")
+,"Isernia")
 
 ui <- bootstrapPage(
   theme = bs_theme(version = 5, bootswatch = "minty"),
   div(class = "container-fluid",
       div(class = "jumbotron text-center bg-primary text-white",
-          h1("Analisi della Percentuale di Stranieri in Italia", class = "display-4"),
+          h2("Analisi della Percentuale di Stranieri in Italia", class = "display-4"),
           p("Esplora l'evoluzione del fenomeno migratorio dal 2002 al 2019", class = "lead")
       ),
       div(class = "row justify-content-center mt-4",
