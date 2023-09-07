@@ -3,7 +3,7 @@ library(bslib)
 library(RColorBrewer)
 require(pals)
 
-my_autocomplete_list <- c("Benevento","Salerno","Bari","Taranto","Lecce","Potenza",
+my_autocomplete_list <- sort(c("Benevento","Salerno","Bari","Taranto","Lecce","Potenza",
 "Matera","Caserta","Napoli","Avellino","Foggia","Brindisi","Cosenza","Crotone","Catanzaro"
 ,"Vibo Valentia","Reggio di Calabria","Trapani","Palermo","Messina","Agrigento","Caltanissetta"
 ,"Enna","Catania","Ragusa","Siracusa","Sassari","Nuoro","Cagliari","Oristano","Monza e della Brianza"
@@ -16,7 +16,7 @@ my_autocomplete_list <- c("Benevento","Salerno","Bari","Taranto","Lecce","Potenz
 ,"Lucca","Pistoia","Firenze","Prato","Livorno","Pisa","Arezzo","Siena","Grosseto"
 ,"Perugia","Terni","Pesaro e Urbino","Ancona","Macerata","Ascoli Piceno","Viterbo"
 ,"Rieti","Roma","Latina","Frosinone","Pescara","Chieti","Campobasso","L'Aquila","Teramo"
-,"Isernia")
+,"Isernia"))
 
 ui <- bootstrapPage(
   theme = bs_theme(version = 5, bootswatch = "minty"),

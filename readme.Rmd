@@ -1,5 +1,5 @@
 ---
-title: "Prova d'esame prof.ssa Gubiotti"
+title: "Prova d'esame prof.ssa Gubbiotti"
 subtitle: "Master Big Data 2022/2023 Sapienza Università di Roma"
 author: "Giuseppe Cinque, Stefano Di Virgilio, Paolo Mazza, Giorgia Tagliaferri"
 date: "2023-09-06"
@@ -32,9 +32,5 @@ L'applicazione è visualizzabile anche tramite cellulare, tuttavia in questo cas
 Sotto è riportato uno screenshoot dell'applicazione raggiungibile al seguente link:
 
 [https://sunrelax.shinyapps.io/Jona_Gubbiotti/](https://sunrelax.shinyapps.io/Jona_Gubbiotti/)
-
-i cui sorgenti sono presenti al seguente link:
-
-[https://github.com/sunrelax/bigdata-shinyapp](https://github.com/sunrelax/bigdata-shinyapp)
 
 ![](shinyapp.png)
